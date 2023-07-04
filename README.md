@@ -22,8 +22,8 @@ This is a _responsive web application_ for viewing in both Mobile and Desktop.
 <br/>
 
 <ul>
- <li> This is Simple Chat Application </li>
- <li> It is a Full Stack Application </li>
+ <li> This is Simple Chat Application.</li>
+ <li> It is a Full Stack Application.</li>
 </ul>
 
 - All the user details, group chats and conversations are stored in the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
