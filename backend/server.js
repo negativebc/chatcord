@@ -18,31 +18,10 @@ app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
 
-//deployment
-const __dirname1 = path.resolve();
-
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static(path.join(__dirname1, "/frontend/build")));
-
-  app.get("*", (req, res) =>
-    res.sendFile(path.resolve(__dirname1, "frontend", "build", "index.html"))
-  );
-} else {
-  app.get("/", (req, res) => {
-    res.send("API is running..");
-  });
-}
-
-/* NODE_ENV=production */ //add it in env
-
 // Error Handling middlewares
 app.use(notFound);
 app.use(errorHandler);
 
-/* app.get('/', (req, res) => {
-    //console.log('hello from server');
-    res.send('Api running');
-}) */
 
 const PORT = process.env.PORT || 5000;
 const server = app.listen(
@@ -95,16 +74,3 @@ io.on("connection", (socket) => {
   });
 });
 
-////////////////////////////////////////////////////////////////
-////////////////////////////////
-//call join to subscribe the socket to a given channel/room
-
-/* io.on("connection", (socket) => {
-  socket.join("some room");
-}); */
-
-//broadcast to a room from a given socket --  every socket in the room excluding the sender will get the event.
-
-/* io.on("connection", (socket) => {
-  socket.to("some room").emit("some event");
-}); */
