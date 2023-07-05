@@ -88,7 +88,7 @@ npm install
 
 Run frontend (:3000) & backend (:5000) 
 ```
-#Run complete webpage
+# Run complete webpage
 npm run dev
 ```
 
