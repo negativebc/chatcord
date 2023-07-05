@@ -25,7 +25,7 @@ const HomePage = () => {
   return (
     <Container maxW="xl" centerContent>
       <Box
-        d="flex"
+        display="flex"
         justifyContent="center"
         margin="3.2rem 0 1rem 0"
         p={3}
@@ -33,7 +33,7 @@ const HomePage = () => {
         borderColor="black"
         borderWidth="1px"
         w="100%"
-        bg="#6a2c82"
+        bg="#2c5082"
       >
         <Text
           color="white"

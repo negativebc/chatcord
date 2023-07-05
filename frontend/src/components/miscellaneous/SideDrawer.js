@@ -132,14 +132,14 @@ const SideDrawer = () => {
   return (
     <React.Fragment>
       <Box
-        d="flex"
+        display="flex"
         justifyContent="space-between"
         alignItems="center"
         w="100%"
         p="5px 10px 5px 10px"
         borderWidth="5px"
-        borderColor="purple.600"
-        bg="yellow.400"
+        borderColor="#2c5082"
+        bg="#2c5082"
         color="black"
       >
         <Tooltip label="Search Users to chat" hasArrow placement="bottom-end">
@@ -148,21 +148,23 @@ const SideDrawer = () => {
             bg="blue.700"
             onClick={onOpen}
             color="white"
-            _hover={{ background: "purple.800", color: "yellow.400" }}
-            _active={{ background: "purple.800", color: "yellow.400" }}
+            borderWidth ="2px"
+            borderColor = "white"
+            _hover={{ background: "#2c5082", color: "white" }}
+            _active={{ background: "#2c5082", color: "white" }}
           >
             <i className="fas fa-search"></i>
-            <Text d={{ base: "none", md: "flex" }} px={4} fontWeight="bold">
+            <Text display={{ base: "none", md: "flex" }} px={4} fontWeight="bold">
               Search User
             </Text>
           </Button>
         </Tooltip>
 
         <Text
-          fontSize="3xl"
-          fontFamily="Work sans bold"
+          fontSize="5xl"
+          fontFamily="Work sans"
           fontWeight="bold"
-          color="purple.700"
+          color="white"
         >
           ChatCord
         </Text>
@@ -174,7 +176,7 @@ const SideDrawer = () => {
                 count={notification.length}
                 effect={Effect.SCALE}
               />
-              <BellIcon fontSize="2xl" m={1} color="blue.700" />
+              <BellIcon fontSize="2xl" m={1} color="gold" />
             </MenuButton>
             <MenuList pl={2}>
               {!notification.length && "No New Messages"}
@@ -198,8 +200,8 @@ const SideDrawer = () => {
               as={Button}
               bg="blue.700"
               rightIcon={<ChevronDownIcon />}
-              _hover={{ background: "purple.800", color: "yellow.400" }}
-              _active={{ background: "purple.800", color: "yellow.400" }}
+              _hover={{ background: "blue.700", color: "white" }}
+              _active={{ background: "blue.700", color: "white" }}
             >
               <Avatar
                 size="sm"
@@ -211,7 +213,7 @@ const SideDrawer = () => {
                 color="black"
               />
             </MenuButton>
-            <MenuList bg="purple.600" borderColor="black" borderWidth="2px">
+            <MenuList bg="blue.700" borderColor="black" borderWidth="2px">
               <ProfileModal user={user}>
                 <MenuItem
                   fontWeight="bold"
@@ -239,7 +241,7 @@ const SideDrawer = () => {
         <DrawerContent>
           <DrawerHeader borderBottomWidth="1px">Search Users</DrawerHeader>
           <DrawerBody>
-            <Box d="flex" pb={2}>
+            <Box display="flex" pb={2}>
               <Input
                 placeholder="Search by name or email"
                 mr={2}
@@ -263,7 +265,7 @@ const SideDrawer = () => {
                 )
               )
             )}
-            {loadingChat && <Spinner ml="auto" d="flex" />}
+            {loadingChat && <Spinner ml="auto" display="flex" />}
           </DrawerBody>
         </DrawerContent>
       </Drawer>

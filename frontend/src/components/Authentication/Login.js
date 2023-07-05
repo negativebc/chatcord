@@ -91,7 +91,7 @@ const Login = () => {
           />
           <InputRightElement width="4.5rem">
             <Button
-              colorScheme="cyan"
+              colorScheme="teal"
               h="1.75rem"
               size="sm"
               onClick={handleClick}

@@ -109,7 +109,7 @@ const Signup = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <InputRightElement width="4.5rem">
-            <Button colorScheme='cyan' h="1.75rem" size="sm" onClick={handleClick}>
+            <Button colorScheme='teal' h="1.75rem" size="sm" onClick={handleClick}>
               {show ? "Hide" : "Show"}
             </Button>
           </InputRightElement>
@@ -124,7 +124,7 @@ const Signup = () => {
             onChange={(e) => setConfirmpassword(e.target.value)}
           />
           <InputRightElement width="4.5rem">
-            <Button colorScheme='cyan' h="1.75rem" size="sm" onClick={handleClick}>
+            <Button colorScheme='teal' h="1.75rem" size="sm" onClick={handleClick}>
               {show ? "Hide" : "Show"}
             </Button>
           </InputRightElement>
