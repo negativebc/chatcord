@@ -51,14 +51,6 @@ MongoDB, Express, React, Node, Socket.IO, Chakra-UI
 
 ## Usage
 
-**Test users**
-
-| Email          | Password  |
-| -------------- | --------- |
-| kohli@test.com | kohlitest |
-
-`Or Use the guest user login feature. `
-
 ### Clone the repository:
 
 ```
