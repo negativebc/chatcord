@@ -35,9 +35,9 @@ const ProfileModal = ({ user, children }) => {
             d="flex"
             justifyContent="center"
             fontWeight="bold"
-            color="white"
+            color="yellow.400"
           >
-            {user.name}
+            <u>{user.name}</u>
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody
@@ -51,7 +51,7 @@ const ProfileModal = ({ user, children }) => {
               fontSize={{ base: "28px", md: "30px" }} fontWeight="bold" color="yellow.400"
               fontFamily="Work sans"
             >
-              Email: {user.email}
+              <u>Email</u> : {user.email}
             </Text>
           </ModalBody>
           <ModalFooter>

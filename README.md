@@ -2,7 +2,7 @@
 
 > A Realtime Chat Application
 
-A simple realtime chat apoplication made using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook, [Node JS](https://nodejs.org/en/docs), [Express JS](https://expressjs.com/en/api.html) and [MongoDB](https://docs.mongodb.com/).
+A simple realtime chat application made using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook, [Node JS](https://nodejs.org/en/docs), [Express JS](https://expressjs.com/en/api.html) and [MongoDB](https://docs.mongodb.com/).
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
 combined to get a single build for production purpose using [Webpack 5](https://webpack.js.org/concepts/).
@@ -77,7 +77,7 @@ JWT_SECRET = <yourSecret>
 ```
 
 ### Install Dependencies (frontend & backend)
-
+### In the Terminal type
 ```
 npm install
 cd frontend
@@ -86,17 +86,17 @@ npm install
 
 ### Run
 
-Run frontend (:3000) & backend (:5000) 
+Running frontend (port:3000) & backend (port:5000) 
 ```
-# Run complete webpage
+# For running of complete webpage
 npm run dev
 ```
 
 ```
-# Run frontend only
+# IF Run frontend only
 cd frontend
 npm start
 
-# Run backend only
+# IF Run backend only
 npm start
 ```

@@ -217,7 +217,7 @@ const SideDrawer = () => {
               <ProfileModal user={user}>
                 <MenuItem
                   fontWeight="bold"
-                  color="black"
+                  color="white"
                   _hover={{ background: "yellow.400" }}
                 >
                   My Profile
@@ -226,7 +226,7 @@ const SideDrawer = () => {
               <MenuDivider />
               <MenuItem
                 fontWeight="bold"
-                color="black"
+                color="white"
                 onClick={logoutHandler}
                 _hover={{ background: "yellow.400" }}
               >
