@@ -23,14 +23,12 @@ This is a _responsive web application_ for viewing in both Mobile and Desktop.
  <li> This is Simple Chat Application</li>
  <li> It is a Full Stack Application</li>
 </ul>
-
 - All the user details, group chats and conversations are stored in the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). <br />
 <ul>
  <li>Login/Signup as well as Logout feature is added </li>
  <li>Guest User Login added</li>
  <li>Error will be shown if the credentials are not correct</li>
 </ul>
-
 - Real time communication & notification is supported using <a href="https://www.npmjs.com/package/socket.io">Socket.io</a>
 <ul>
  <li> Realtime One on One chats and group chats </li>
