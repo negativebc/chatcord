@@ -18,26 +18,20 @@ This is a _responsive web application_ for viewing in both Mobile and Desktop.
 - Latest features of JavaScript i.e. ES6, ES7, ES8 is used
 - [React JS Hooks](https://reactjs.org/docs/hooks-intro.html) are used with Functional components
 - ES8 `async/await` is used
-<br/>
-<ul>
- <li> This is Simple Chat Application</li>
- <li> It is a Full Stack Application</li>
-</ul>
-- All the user details, group chats and conversations are stored in the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). <br />
-<ul>
- <li>Login/Signup as well as Logout feature is added </li>
- <li>Guest User Login added</li>
- <li>Error will be shown if the credentials are not correct</li>
-</ul>
+- This is Simple Chat Application</li>
+- It is a Full Stack Application</li>
+- All the user details, group chats and conversations are stored in the [MongoDB Atlas](https://www.mongodb.com/cloud/atlas). 
+- Login/Signup as well as Logout feature is added </li>
+- Guest User Login added</li>
+- Error will be shown if the credentials are not correct</li>
 - Real time communication & notification is supported using <a href="https://www.npmjs.com/package/socket.io">Socket.io</a>
-<ul>
- <li> Realtime One on One chats and group chats </li>
- <li> Functionality and features like Search for chats, create a group, add or remove partricipants. </li>   
- <li> typing... animation. </li>
- <li> Online / Offline status are shown . </li>
- <li> Read / Unread status of conversation is supported
- <li> All the conversation are stored in the database i.e. <i>persistant</i>
-</ul>
+ - Realtime One on One chats and group chats </li>
+ - Functionality and features like Search for chats, create a group, add or remove partricipants. </li>   
+ - typing... animation. </li>
+ - Online / Offline status are shown . </li>
+ - Read / Unread status of conversation is supported
+ - All the conversation are stored in the database i.e. <i>persistant</i>
+
 
 ## Tech Stack
 
